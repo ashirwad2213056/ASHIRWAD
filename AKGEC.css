@@ -1,0 +1,36 @@
+#logo_Bar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+}
+#content1 {
+    background-image: url(75th\ Independence\ Day\ Images.jpg);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+#content4 {
+background-image: url(Premium\ Vector\ _\ A\ logo\ for\ g203\ india\ with\ a\ lotus\ flower\ in\ the\ middle_.jpg);
+height: 90px;
+width: 90px;
+background-size: cover;
+}
+#content3 {
+    width: 500px;
+    height: 90px;
+}
+#collageName{
+    font-size: 20px;
+    margin-top: 0px;
+}
+#content2 {
+    background-image: url(akgec\ logo.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+#element_Bar {
+    background-color: rgb(19, 18, 18);
+    color: aliceblue;
+}
