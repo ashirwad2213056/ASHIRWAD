@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="enquiry.css">
+</head>
+<body>
+    <fieldset>
+        <p>ENQUIRY NOW</p>
+    <form action="ENQUIRY">
+        Name:
+        <input type="Name" placeholder="enter your name" required autofocus >
+         
+        Date of Birth: <input type="date" name="date">
+        <br> <br>
+        Email: 
+        <input type="Email" name="Email" required placeholder="enter your email" >
+        
+        Phone No: 
+        <input type="text" inputmode="numeric" placeholder="Ph No" pattern="[0-9]+" >
+        <br> <br>
+        Password:
+        <input type="password" name="password">
+        <br> <br>
+        Gender:
+        <input type="radio" value="M" name="gender">Male
+        <input type="radio" value="F" name="gender">Female
+         <br> <br>
+        10th Marksheet:
+        <input type="file" name="10th Marksheet" required>
+        <br>
+        12th Marksheet:
+        <input type="file" name="12th Marksheet" required>
+        <br>
+        JEE ScoreCard:
+        <input type="file" name="JEE ScoreCard" required>
+        <br> <br>
+        Preference:
+        <select name="Branch" id="branch">
+        <option value="CSE">CSE</option>
+        <option value="CSE(DS)">CSE(DS)</option>
+        <option value="CSE(AIML)">CSE(AIML)</option>
+        <option value="CS">CS</option>
+        <option value="AIML">AIML</option>
+        <option value="CSE(HINDI)">CSE(HINDI)</option>
+        <option value="CS&IT">CS&IT</option>
+        <option value="IT">IT</option>
+        <option value="ECE">ECE</option>
+        <option value="EN">EN</option>
+        <option value="CIVIL">CIVIL</option>
+        <option value="MECHENICAL">MECHENICAL</option>
+        </select>
+        <br> <br>
+        <textarea name="QUEARY" id="QUEARY" cols="30" rows="10" placeholder="text your query here"></textarea>
+        <br> <br>
+        <input type="submit" value="send">
+        <input type="reset" value="reset">
+    </form>
+    </fieldset>
+</body>
+</html>
