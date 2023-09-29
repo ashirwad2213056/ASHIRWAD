@@ -1,0 +1,27 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+fieldset {
+    margin: 30%;
+    background-color: #E040FB;
+    border: solid 5px #9C27B0;
+    border-radius: 6px;
+    min-width: fit-content;
+    
+}
+p{
+    font-size: 1.25em;
+    padding: 0 .25em;
+    color: #ca923c;
+    text-align: center;
+    border: solid 2px #5E35B1;
+    border-radius: 4px;
+    background-color: #2d1b92;
+}
+Name{
+    display: flex;
+    justify-content: center;
+    B
+}
